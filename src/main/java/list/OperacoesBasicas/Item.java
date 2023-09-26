@@ -13,23 +13,15 @@ public class Item {
 	}
 
 	public String getNome() {
-		return nome;
+		return this.nome;
 	}
 
 	public double getPreco() {
-		return preco;
+		return this.preco;
 	}
 
-	public int getQuant() {
-		return quant;
+	public int getQuantidade() {
+		return this.quant;
 	}
 
-	@Override
-	public String toString() {
-		return "Item{" +
-				"nome='" + nome + '\'' +
-				", preco=" + preco +
-				", quant=" + quant +
-				'}';
-	}
 }
